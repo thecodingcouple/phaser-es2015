@@ -1,4 +1,4 @@
-// src/states/wizard.js
+// src/sprites/wizard.js
 
 import { Phaser } from 'phaser';
 
@@ -15,10 +15,6 @@ export class Wizard extends Phaser.Sprite {
         this.body.drag.set(100);
         this.body.maxVelocity.set(500);  
         this.body.collideWorldBounds = true;        
-        
-        this.spells = game.add.group();
-        this.spells.enableBody = true;
-        this.spells.physicsBodyType = Phaser.Physics.ARCADE;
         
         this.body.width -= 32;
         this.body.height -= 32;             

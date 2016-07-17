@@ -7,7 +7,7 @@
     "start": "http-server -o -c-1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jspm": "^0.16.34"
   },
