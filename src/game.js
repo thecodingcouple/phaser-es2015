@@ -1,6 +1,6 @@
 // src/game.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 import { Load } from './states/load';
 import { Menu } from './states/menu';
 import { Play } from './states/play';

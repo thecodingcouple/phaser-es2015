@@ -1,6 +1,6 @@
 // src/sprites/wizard.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 
 export class Wizard extends Phaser.Sprite { 
     constructor(game, x, y) {

@@ -1,6 +1,6 @@
 // src/states/gameover.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 
 export class GameOver extends Phaser.State{
     create() {

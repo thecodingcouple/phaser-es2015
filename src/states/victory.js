@@ -1,6 +1,6 @@
 // src/states/victory.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 
 export class Victory extends Phaser.State{
     create() {

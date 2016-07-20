@@ -1,6 +1,6 @@
 // src/states/load.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 
 export class Load extends Phaser.State {
     preload() {

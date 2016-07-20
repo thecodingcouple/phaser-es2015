@@ -1,6 +1,6 @@
 // src/states/play.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 import { Wizard } from '../sprites/wizard';;
 
 export class Play extends Phaser.State {    

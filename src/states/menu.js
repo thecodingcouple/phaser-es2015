@@ -1,6 +1,6 @@
 // src/states/menu.js
 
-import { Phaser } from 'phaser';
+import Phaser from 'phaser';
 
 export class Menu extends Phaser.State{
     create() {
